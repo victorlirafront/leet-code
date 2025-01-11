@@ -1,3 +1,5 @@
+//LEETCODE
+
 // const words1 = ["a", "aba", "ababa", "aa"];
 //eu preciso a primeira string com as seguintes e verificar se o prefixo e sulfixo são iguais
 // e a segunda string (str2) deve ser maior ou igual à primeira string

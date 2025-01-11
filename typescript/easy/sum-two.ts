@@ -1,3 +1,5 @@
+//LEETCODE
+
 // Um Map é uma estrutura de dados do JavaScript que armazena pares chave-valor, onde as chaves podem ser de qualquer tipo
 // (não apenas strings, como em objetos). Ele oferece algumas vantagens sobre objetos tradicionais e é muito útil quando você precisa de um armazenamento 
 // de dados que preserve a ordem de inserção e aceite tipos de dados variados como chave.
