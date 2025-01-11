@@ -22,6 +22,6 @@ func isPrime(number int) bool {
 }
 
 func main() {
-	result := isPrime(10)
+	var result = isPrime(10)
 	fmt.Println(result) // false
 }
