@@ -1,5 +1,12 @@
 //LEETCODE
 
+// const words1 = ["a", "aba", "ababa", "aa"];
+//eu preciso a primeira string com as seguintes e verificar se o prefixo e sulfixo são iguais
+// e a segunda string (str2) deve ser maior ou igual à primeira string
+// 1 - Criar a função que faz o laço no array
+// 2 - Criar a variavel que conta as vezes que teve a ocorrência de pares
+// 2 - Criar a função que valida os pares ( prefixo e sufixo ), e garante de a str2 é maior ou igual a str2
+
 package main
 
 import (
