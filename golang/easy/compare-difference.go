@@ -11,11 +11,11 @@ func diagonalDifference(arr [][]int) int {
 	arrayLength := len(arr)
 
 	for i := 0; i < arrayLength; i++ {
-		diagonalLeft += arr[i][i]                // Soma na diagonal principal
-		diagonalRight += arr[i][arrayLength-1-i] // Soma na diagonal secundária
+		diagonalLeft += arr[i][i]                // Sum of the primary diagonal
+		diagonalRight += arr[i][arrayLength-1-i] // Sum of the secondary diagonal
 	}
 
-	// Retorna a diferença absoluta entre as diagonais
+	// Returns the absolute difference between the diagonals
 	return int(math.Abs(float64(diagonalLeft - diagonalRight)))
 }
 
@@ -27,5 +27,5 @@ func main() {
 	}
 
 	result := diagonalDifference(matrix)
-	fmt.Println(result) // Saída: 15
+	fmt.Println(result) // Output: 15
 }
