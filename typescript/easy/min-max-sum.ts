@@ -1,3 +1,6 @@
+
+
+
 function miniMaxSum(arr) {
   // Ordena o array em ordem crescente
   arr.sort((a, b) => a - b);

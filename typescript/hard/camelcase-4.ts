@@ -1,3 +1,5 @@
+//--- HACKERRANK
+
 function processData(input) {
   const lines = input.trim().split("\n");
 

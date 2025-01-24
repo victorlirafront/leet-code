@@ -1,3 +1,6 @@
+// --- HACKERRANK
+
+
 function diagonalDifference(arr: number[][]) {
   let diagonalLeft = 0;
   let diagonalRight = 0;

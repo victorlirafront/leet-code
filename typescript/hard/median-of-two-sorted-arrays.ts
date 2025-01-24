@@ -1,3 +1,5 @@
+//--- LEETCODE
+
 function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
   // Garante que nums1 seja o menor array
   if (nums1.length > nums2.length) {

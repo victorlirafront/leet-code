@@ -1,3 +1,6 @@
+//Leetcode --- Daily
+
+
 function isPrefixAndSuffix(string1: string, string2: string): boolean {
   return (
     string2.startsWith(string1) &&
