@@ -1,23 +1,22 @@
-
 function twoSum(nums: number[], target: number): number[] | null {
-  const seen = new Map<number, number>(); // Map para armazenar valores já vistos
+  const seen = new Map<number, number>(); // Map to store already seen values
 
   for (let i = 0; i < nums.length; i++) {
     const num = nums[i];
     const complement = target - num;
 
-    // Verifica se o complemento já está no Map
+    // Checks if the complement is already in the Map
     if (seen.has(complement)) {
-      return [seen.get(complement)!, i]; // Retorna os índices (o "!" indica que o valor não é `undefined`)
+      return [seen.get(complement)!, i]; // Returns the indices (the "!" indicates that the value is not `undefined`)
     }
 
-    // Adiciona o número atual e seu índice ao Map
+    // Adds the current number and its index to the Map
     seen.set(num, i);
   }
 
-  return null; // Retorna null se não encontrar os índices
+  return null; // Returns null if no indices are found
 }
 
-// Exemplo de uso
-const result = twoSum([2, 7, 11, 15], 9);
-console.log(result); // Saída: [0, 1]
+// Example usage
+const sumResult = twoSum([2, 7, 11, 15], 9);
+console.log(sumResult); // Output: [0, 1]
