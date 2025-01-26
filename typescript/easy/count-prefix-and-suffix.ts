@@ -33,3 +33,7 @@ console.log(countPrefixSuffixPairs(words2)); // Saída: 2
 
 const words3 = ['abab', 'ab'];
 console.log(countPrefixSuffixPairs(words3)); // Saída: 0
+
+// Instructions
+// You need to check if the second string starts and ends with the first string
+// The second string must be greater than or equal to the first in length
